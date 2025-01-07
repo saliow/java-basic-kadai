@@ -1,9 +1,9 @@
 package kadai_018;
 
 public class KatoTaro_Chapter18 extends Kato_Chapter18 {
-	public KatoTaro_Chapter18(String familyName, String address) {
-		super(familyName, address);
-		setGivenName("太郎");
+	@Override
+	public void setGivenName() {
+		givenName = "太郎";
 	}
 	
 	@Override
